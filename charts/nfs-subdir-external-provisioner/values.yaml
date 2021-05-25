@@ -10,6 +10,7 @@ imagePullSecrets: []
 nfs:
   server:
   path: /nfs-storage
+  path_real: /nfs-storage
   mountOptions:
 
 # For creating the StorageClass automatically:

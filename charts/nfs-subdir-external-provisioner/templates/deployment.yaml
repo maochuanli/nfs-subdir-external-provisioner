@@ -52,7 +52,7 @@ spec:
             - name: NFS_SERVER
               value: {{ .Values.nfs.server }}
             - name: NFS_PATH
-              value: {{ .Values.nfs.path }}
+              value: {{ .Values.nfs.path_real }}
             {{- if eq .Values.leaderElection.enabled false }}
             - name: ENABLE_LEADER_ELECTION
               value: "false"
